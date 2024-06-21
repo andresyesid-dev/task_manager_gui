@@ -1,0 +1,7 @@
+QWidget {
+    background: #101010;
+    margin: 1px;
+}
+QFrame {
+    border-radius: 10px;
+}

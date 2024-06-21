@@ -1,0 +1,50 @@
+QFrame#content{
+    padding: 10px 10px 0 10px;
+}
+
+QWidget {
+    background-color: #202020;
+}
+
+QLabel { 
+    font-size: 16px;
+    background: #202020;
+}
+
+QLabel#title { 
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+QLabel#title_label, Qlabel#description_label{ 
+    font-size: 15px;
+}
+
+QLineEdit {
+    padding: 9px 10px;
+    border-radius: 6px;
+    font-size: 15px;
+    margin-bottom: 13px;
+    background: #333;
+}
+
+QLineEdit:focus {
+    border: 2px solid #486fbb;
+}
+
+QCheckBox {
+    margin-top: 6px;
+    font-size: 14px;
+}
+
+QPushButton{
+    margin-top: 30px;
+    padding: 8px 0;
+    border-radius: 5px;
+    font-size: 15px;
+    background: #185698;
+}
+
+QPushButton:hover{
+    background: #1d64b1;
+}

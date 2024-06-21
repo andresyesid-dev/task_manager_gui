@@ -1,0 +1,43 @@
+QFrame#content{
+    padding: 10px 10px 0 10px;
+}
+
+QWidget {
+    background-color: #202020;
+}
+
+QLabel { 
+    font-size: 15px;
+    background: #202020;
+}
+
+QLabel#title_label {
+    font-size: 21px;
+    text-align: center;
+}
+
+QLabel#description_label {
+    font-size: 16px;
+    padding-right: 20px;
+}
+
+QPushButton {
+    margin-top: 20px;
+    padding: 8px 0;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+QPushButton#update_button{
+    background: #185698;
+}
+QPushButton#update_button:hover{
+    background: #1d64b1;
+}
+
+QPushButton#delete_button{
+    background: #8a201e;
+}
+QPushButton#delete_button:hover{
+    background: #9a221e;
+}

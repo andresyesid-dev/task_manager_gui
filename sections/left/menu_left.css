@@ -1,0 +1,40 @@
+QPushButton#button_add {
+    background: #23854f;
+    color: #ccc;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 24px;
+}
+QPushButton#button_add:hover {
+    background: #259557;
+    font-size: 26px;
+}
+
+QFrame#main_frame {
+    background: #1c1c1c;
+    border-radius: 10px;
+}
+
+QLabel {
+    font-size: 24px;
+    padding-left: 4px;
+    color: #ccc;
+    background: #1c1c1c;
+}
+
+QListWidget {
+    font-size: 15px;
+    color: #ccc;
+    background: #1c1c1c;
+    border: none;
+    margin-top: 5px;
+}
+
+QListWidget::item {
+    padding: 12px;
+    background: none;
+    border-radius: 5px;
+}
+QListWidget::item:focus {
+    background: #333;
+}
